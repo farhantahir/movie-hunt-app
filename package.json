@@ -1,0 +1,18 @@
+{
+  "name": "movies-hunt",
+  "version": "1.0.0",
+  "description": "Movies Hunt App built using Next, React, Redux and Bootstrap 4",
+  "main": "index.js",
+  "author": "Farhan Tahir",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
