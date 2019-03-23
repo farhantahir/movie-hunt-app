@@ -12,8 +12,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "babel-plugin-module-resolver": "^3.2.0",
     "bootstrap": "^4.3.1",
     "next": "^8.0.3",
+    "node-sass": "^4.11.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5"
   },
