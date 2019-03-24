@@ -1,8 +1,6 @@
 import React from 'react';
 
-import Navbar from '#components/common/navbar';
-import NavbarLogo from '#components/common/navbar-logo';
-import Icon from '#components/common/icon';
+import { Navbar, NavbarLogo, Icon } from '#components/common';
 
 const AppNavbar = () => (
   <Navbar fixed>
