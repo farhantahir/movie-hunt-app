@@ -14,7 +14,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "babel-plugin-module-resolver": "^3.2.0",
-    "bootstrap": "^4.3.1",
+    "materialize-css": "^1.0.0-rc.2",
     "next": "^8.0.3",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
