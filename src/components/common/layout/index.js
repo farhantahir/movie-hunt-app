@@ -9,7 +9,7 @@ import styles from './app.scss';
 
 const Layout = ({ children }) => (
   <div className={styles.app}>
-    <Navbar />
+    <Navbar fixed />
     {children}
   </div>
 );

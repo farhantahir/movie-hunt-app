@@ -1,18 +1,25 @@
 import React from 'react';
-import { node } from 'prop-types';
+import { node, bool } from 'prop-types';
 import classnames from 'classnames/bind';
 import styles from './styles.scss';
 
 const cx = classnames.bind(styles);
 
-const navbar = ({ children }) => (
-  <nav>
-    <div className={cx('nav-wrapper', { navbarBg: true })}>{children}</div>
-  </nav>
+const navbar = ({ fixed, children }) => (
+  <div className={cx({ 'navbar-fixed': fixed })}>
+    <nav>
+      <div className={cx('nav-wrapper', { navbar: true })}>{children}</div>
+    </nav>
+  </div>
 );
 
 navbar.propTypes = {
   children: node.isRequired,
+  fixed: bool,
+};
+
+navbar.defaultProps = {
+  fixed: false,
 };
 
 export default navbar;
