@@ -1,11 +1,17 @@
 import React from 'react';
 
-import { Navbar, NavbarLogo, Icon } from '#components/common';
+import { Row, Column, Navbar, NavbarLogo, Icon } from '#components/common';
 
 const AppNavbar = () => (
   <Navbar fixed>
-    <Icon icon="menu" />
-    <NavbarLogo imgSrc="/static/images/logo.png" url="/" />
+    <Row>
+      <Column m={1} className="center-align">
+        <Icon icon="menu" />
+      </Column>
+      <Column m={1}>
+        <NavbarLogo imgSrc="/static/images/logo.png" url="/" />
+      </Column>
+    </Row>
   </Navbar>
 );
 
