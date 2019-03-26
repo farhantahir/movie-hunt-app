@@ -6,3 +6,5 @@ export { default as Icon } from './icon';
 export { default as Layout } from './layout';
 export { default as Tabs } from './tabs';
 export { default as Tab } from './tab';
+export { default as Link } from './link';
+export { default as Button } from './button';

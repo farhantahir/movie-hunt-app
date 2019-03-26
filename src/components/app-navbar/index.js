@@ -8,6 +8,8 @@ import {
   Icon,
   Tabs,
   Tab,
+  Link,
+  Button,
 } from '#components/common';
 
 import styles from './styles.scss';
@@ -32,16 +34,14 @@ const AppNavbar = () => (
       </Column>
       <Column m={3}>
         <Row>
-          <Column m={6} className="valign-wrapper">
-            <a href="#" className={styles.loginBtn}>
+          <Column m={4} className="valign-wrapper">
+            <Link href="#" className={styles.loginBtn}>
               Login
-            </a>
+            </Link>
           </Column>
 
           <Column m={6} className="valign-wrapper">
-            <a href="#" className="btn">
-              Sign Up
-            </a>
+            <Button className={styles.signUp}>Sign up</Button>
           </Column>
         </Row>
       </Column>
