@@ -1,0 +1,19 @@
+@import '../../scss/variables';
+
+.tabs {
+  border-right: 1px dotted $tuna;
+}
+
+.tab {
+  text-transform: none !important;
+}
+
+.login-btn,
+.login-btn:hover {
+  height: 23px;
+  width: 50px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 48px;
+}
