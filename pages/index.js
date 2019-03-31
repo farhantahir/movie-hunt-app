@@ -1,9 +1,16 @@
 import React from 'react';
-import { Layout } from '#components/common';
+import { Row, Column, Icon, Heading, Layout } from '#components/common';
 
 const MovieHuntApp = () => (
   <Layout>
-    <h2>Hello World@</h2>
+    <Row>
+      <Column m={6}>
+        <Heading>Top rated movies</Heading>
+      </Column>
+      <Column m={6} className="text-right">
+        <Icon icon="search" />
+      </Column>
+    </Row>
   </Layout>
 );
 
